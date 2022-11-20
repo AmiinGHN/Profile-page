@@ -1,0 +1,98 @@
+body {
+    background-color: #28223f;
+    font-family: "Varela Round";
+}
+.main {
+    box-sizing: border-box;
+    box-shadow:0 45px 37px -25px #000000, 0 14px 5px 20px #26203d, 0px 30px 5px 20px #26203d;
+    border-radius: 4px;
+    width: 370px;
+    height: 510px;
+    background-color: #231e3a;
+    margin: auto;
+    margin-top: 80px;
+}
+.pro {
+    display: inline-block;
+    width: 40px; 
+    position: absolute;
+    margin: 30px 0 0 30px;
+    background-color: #fdba0b;
+    padding: 4px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 3px;
+}
+.skills {
+    display: inline-block;
+    box-sizing: border-box;
+    height: 130px;
+    width: 370px;
+    color: #8e9dae;
+    background-color: #1f1a36;
+    padding-left: 20px;
+    font-size: 13px;
+}
+div.skills * {
+    display: inline-block;
+}
+div.skill-items * {
+    border: 1px solid #2d2747;
+    padding: 11px;
+    margin: 0 6px 6px 0;
+    line-height: 5px;
+    border-radius: 2px;
+}
+
+img {
+    margin: 30px 100px 0 110px;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    padding: 2px;
+    box-shadow: #03bfcb 0px 0px 0px 1px ;
+    border-radius: 90px;
+  }
+
+  button {cursor: pointer;}
+
+.about {
+    text-align: center;
+    color: white;
+}
+.details {
+    font-size: 15px;
+}
+.contact {
+    display: inline-block;
+    width: 367px;
+    text-align: center;
+}
+.message {
+    display: inline-block;
+    margin-bottom: 25px;
+    color: #28223f;
+    background-color: #03bfcb;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    border-style: none;
+}
+.message:hover {
+    background-color: #01d8e7;
+}
+.following {
+    position: relative;
+    display: inline-block;   
+    margin-bottom: 25px;
+    color: #03bfcb;
+    background-color: #28223f;
+    width: 120px;
+    height: 40px;
+    border: 1px solid #03bfcb;
+    border-radius: 4px;
+}
+.following:hover {
+    color: rgb(255, 52, 52);
+    border-color: rgb(255, 52, 52);
+}
